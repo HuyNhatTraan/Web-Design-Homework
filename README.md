@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @HuyNhatTraan
 - 👀 I’m interested in C++
 - 🌱 I’m currently learning C++, C#
-- 💞️ I’m looking to collaborate on no one
 - 📫 How to reach me HuyNhatTran on Discord
 
 <!---
