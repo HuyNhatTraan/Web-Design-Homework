@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans';font-size: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    padding-left: 50px; 
+    font-weight: lighter;
+}
+.nav {
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    height: 100px; 
+    position: sticky;
+    top: 0;
+}
+
+.icon-nav {
+    display:flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.nav-context {
+    color: aliceblue;
+    display: flex;
+    margin: 0 auto; 
+    text-align: center; 
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-context h3 {
+    margin: 0;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    gap: 13px;
+}
+
+.nav-right-button {
+    display: none;
+    padding: 0 75px;
+}
+
+.container-sale-off {
+    background-color: #FAFAFA;
+    margin: 40px 40px;
+    width: calc(100% - 60px);
+    height: 600px;
+    border-radius: 30px;
+}
+
+.container-sale-off-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.container-sale-off-box-image {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    background-color: #D9D9D9;
+    margin: 15px;
+    margin-top: -20px;
+    border-radius: 35px;
+}
+
+.container-sale-off-box-image p {
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.container-sale-off-box-image del {
+    display: flex;
+    padding-left: 10px;
+}
+
+.container-sale-off-box-image img {
+    display: flex;
+    align-items: center;
+    width: 250px; 
+    height: 250px;
+}
+
+.Cac-thuong-hieu-phan-phoi-block {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: -70px;
+    padding: 10;
+    align-items: center;
+    justify-items: center;
+}
+
+.Cac-thuong-hieu-phan-phoi-block-img {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 400px;
+    background-color: #D9D9D9;
+    margin: 50px;
+    margin-top: -20px;
+}
+
+.Cac-thuong-hieu-phan-phoi-block-img img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+footer {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 40px 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.footer-section h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
